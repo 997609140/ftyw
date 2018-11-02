@@ -1,7 +1,7 @@
 <template>
 	<div class="nw-m">   
 		<ul class="nw-mx">
-			<img src="../../static/m1.jpg"/>		
+			<img src="../assets/m1.jpg"/>		
 		<div class="nw-mz" >
 			<li>{{list.username}}</li>
 			<li>{{list.zjname}}</li>

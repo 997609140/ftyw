@@ -136,30 +136,30 @@ p {
 	margin: 0 auto;
 }
 .h1-2 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 }
 .h1-3 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -92px 0px;
 }
 .h1-4 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -186px 0px;
 }
 .h1-5 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -272px 0px;
 }
 .h2-2 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -368px 0px;
 }
 .h2-3 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -458px 0px;
 }
 .h2-4 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -558px 0px;
 }
 .footer-h2-2 {

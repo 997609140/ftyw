@@ -5,6 +5,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'App'
 }
@@ -14,6 +15,9 @@ export default {
 *{
 	margin: 0;
 	padding: 0;
+}
+li {
+	list-style-type: none;
 }
 /*#app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

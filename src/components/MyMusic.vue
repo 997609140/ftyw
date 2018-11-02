@@ -66,7 +66,7 @@ export default {
 .mymusic-bg {
 	width: 1356px;
 	height: 380px;
-	background-image: url(../../static/bg_profile.jpg);
+	background-image: url(../assets/bg_profile.jpg);
 	position: relative;
 }
 .mymusic-ph  {
@@ -74,7 +74,7 @@ export default {
 	height: 110px;
 	position: relative;
 	margin: 0 auto;
-	background-image: url(../../static/m1.jpg);
+	background-image: url(../assets/m1.jpg);
 	border: 3px solid lightgoldenrodyellow;
 	border-radius: 50%;
 	top: 20px;
@@ -96,7 +96,7 @@ h1 {
 	display: inline-block;
 	width: 36px;
 	height: 36px;
-	background-image: url(../../../ftywhd/build/logo.png);
+	background-image: url(../assets/logo.png);
 }
 .mymusic-fs {
 	width: 1200px;

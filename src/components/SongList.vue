@@ -4,27 +4,27 @@
 		<h2>歌单推荐</h2>
 		<div id="SLists">
 			<div class="sl">
-				<img src="../../static/sl01.jpg" class="slimg" />
+				<img src="../assets/sl01.jpg" class="slimg" />
 				<a href="/Play">每日新歌：刘惜君完美演绎</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl02.jpg" class="slimg" />
+				<img src="../assets/sl02.jpg" class="slimg" />
 				<a href="/Play">清新小调：清泉般声音沁入心</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl03.jpg" class="slimg" />
+				<img src="../assets/sl03.jpg" class="slimg" />
 				<a href="/Play">我本孤独成性 却愿为你深情</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl04.jpg" class="slimg" />
+				<img src="../assets/sl04.jpg" class="slimg" />
 				<a href="/Play">当古风歌名拆分成两首曲子</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl04.jpg" class="slimg" />
+				<img src="../assets/sl04.jpg" class="slimg" />
 				<a href="/Play">当古风歌名拆分成两首曲子</a>
 				<p>播放量：2.6万</p>
 			</div>
@@ -227,7 +227,7 @@ export default {
 		display: inline-block;
 		margin: auto;
 		text-align: center;
-		background: url('../../static/bgImg.jpg') left top no-repeat;
+		background: url('../assets/bgImg.jpg') left top no-repeat;
 		position: relative;
 		overflow: hidden;
 	}

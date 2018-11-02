@@ -2,7 +2,7 @@
 	<div class="hello">
 		<Header>
 			<div class="headimg">
-				<img src="../../static/logo.jpg" alt="" />
+				<img src="../assets/logo.jpg" alt="" />
 				<li>|</li>
 				<p>注册WFTYmusic</p>
 				<div class="h-rig">
@@ -37,14 +37,13 @@
 				<p class="reg-sms-p reg-sms-p-warn">1069 0691 036590</p>
 				<p class="reg-sms-p reg-sms-p-last">即可注册成功，手机号即为登录帐号。</p>
 				<p class="reg-sms-qrcode">
-					<img src="../../static/upreg.png" style="width: 168px;height: 168px;"><br />
+					<img src="../assets/upreg.png" style="width: 168px;height: 168px;"><br />
 					<span>请使用手机微信进行扫码</span>
 				</p>
 			</div>
 		</div>
 	</div>
 </template>
-
 <script>
 import axios from 'axios'
 export default {
@@ -119,6 +118,9 @@ export default {
 						This.mydata = response.data;
 						if(This.mydata.r == 'user_existed'){
 							This.proU = "用户名已存在";
+						}
+						if(This.mydata.r == 'ok'){
+							
 						}
 					}).catch(response => {
 						console.log("发送Ajax请求失败", response);
