@@ -11,7 +11,7 @@
 		         <el-carousel-item v-for="item in 4" :key="item">
                  <new-musicml></new-musicml>
 		         <new-musicml></new-musicml>	
-		         <new-musicml></new-musicml>	
+		         <new-musicml></new-musicml>
 		         </el-carousel-item>
 	        </el-carousel>
         </div>
@@ -35,9 +35,10 @@ export default {
 
 <style scoped>
 .newmusic {
-	width: 1356px;
+	width: 1349px;
 	height: 556px;
 	background: linear-gradient(#ccc,#fff);	
+	margin: 0 auto;
 }
 h3 {
 	width: 1200px;
@@ -62,12 +63,15 @@ h3 {
 	border: 1px solid grey;
 }
   
-.el-carousel__item h3 {
+/*.el-carousel__item h3 {
     color: #475669;
     font-size: 14px;
     opacity: 0.75;
     line-height: 150px;
-    margin: 0;
-  }
-
+    margin: 0 auto;
+  }*/
+.block {
+	width: 1200px;
+	margin: 0 auto;
+}
 </style>

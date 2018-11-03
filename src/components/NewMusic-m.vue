@@ -1,7 +1,7 @@
 <template>
 	<div class="nw-m">   
 		<ul class="nw-mx">
-			<img src="../../static/m1.jpg"/>		
+			<img src="../assets/m1.jpg"/>		
 		<div class="nw-mz" >
 			<li>{{list.username}}</li>
 			<li>{{list.zjname}}</li>
@@ -21,11 +21,12 @@
 	}
 }</script>
 
-<style scoped>.nw-m {
-	width: 410px;
+<style scoped>
+.nw-m {
+	width: 400px;
 	height: 111px;
 	display: inline-block;
-	border-bottom: 1px solid gainsboro;
+	border-bottom: 1px solid darkgray;
 }
 
 .nw-mx {
@@ -37,7 +38,6 @@
 .nw-mz {
 	position: relative;
 	top: -8px;
-	left: -102px;
 	display: inline-block;
 }
 
@@ -45,15 +45,12 @@
 	margin: 10px;
 }
 
-li {
-	list-style-type: none;
-}
+
 
 img {
 	width: 86px;
 	height: 86px;
 	position: relative;
-	left: -100px;
 	top: 14px;
 }
 
@@ -61,6 +58,7 @@ p {
 	height: 21px;
 	display: inline-block;
 	position: relative;
-	right: -96px;
+	right: -196px;
 	top: -24px;
-}</style>
+}
+</style>

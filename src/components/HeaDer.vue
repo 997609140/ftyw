@@ -20,7 +20,7 @@
 			
 		</div>
 		<div class="nav-login">
-			<a href="">登录</a>
+			<router-link  to="/LoGin">登录</router-link>
 			<a href="" class="checked">开通绿钻豪华版</a>
 			<a href="">开通付费包</a>
 		</div>
@@ -122,7 +122,7 @@
 		cursor: pointer;
 	}
 	.search-icon {
-		background-image: url(../../static/QQ图片20181031150358.png);
+		background-image: url(../assets/QQ图片20181031150358.png)g);
 		background-position: 0 -40px;
 		width: 16px;
 		height: 16px;

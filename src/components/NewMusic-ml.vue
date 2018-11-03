@@ -11,17 +11,17 @@ export default {
 	data() {
 	  return {
 		 	lists:[
-		 	 {imgsrc:'../../static/m1.jpg',
+		 	 {imgsrc:'../assets/m1.jpg',
 		 	  username:'fsl',
 		 	  zjname:'hah',
 		 	  time:'2.50'
 		 	 },
-		 	 {imgsrc:'../../static/m1.jpg',
+		 	 {imgsrc:'../assets/m1.jpg',
 		 	  username:'whr',
 		 	  zjname:'hah',
 		 	  time:'2.50'
 		 	 },
-		 	 {imgsrc:'../../static/m1.jpg',
+		 	 {imgsrc:'../assets/m1.jpg',
 		 	  username:'yz',
 		 	  zjname:'lal',
 		 	  time:'2.50'

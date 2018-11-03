@@ -73,9 +73,9 @@
 		</div>
 		
 		<ul class="footer-foot">
-			<li>关于腾讯 | About Tencent | 服务条款 | 用户服务协议 | 隐私政策 | 权利声明 | 广告服务 | 腾讯招聘 | 客服中心 | 网站导航</li>
+			<div><span>关于腾讯</span> | <span>About Tencent </span>| <span>服务条款</span> | <span>用户服务协议</span> | <span>隐私政策 </span>| <span>权利声明</span> | <span>广告服务</span> | <span>腾讯招聘</span> | <span>客服中心</span> | <span>网站导航</span></div>
 			<li>Copyright © 1998 - 2018 Tencent. All Rights Reserved.</li>
-			<li>腾讯公司 版权所有 腾讯网络文化经营许可证</li>			
+			<div><span>腾讯公司</span> <span>版权所有</span> <span>腾讯网络文化经营许可证</span></div>			
 		</ul>
 	</div>
 </template>
@@ -95,7 +95,7 @@ export default {
 .footer {
 	position: relative;
 	color: darkgray;
-	width: 1356px;
+	width: 1349px;
 	height: 589px;
 	background-color: #333;
 }
@@ -136,31 +136,59 @@ p {
 	margin: 0 auto;
 }
 .h1-2 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 }
 .h1-3 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -92px 0px;
 }
 .h1-4 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -186px 0px;
 }
 .h1-5 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -272px 0px;
 }
 .h2-2 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -368px 0px;
 }
 .h2-3 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -458px 0px;
 }
 .h2-4 {
-	background-image: url(../../static/footer.png);
+	background-image: url(../assets/footer.png);
 	background-position: -558px 0px;
+}
+.h1-2:hover {
+	background-image: url(../assets/footer.png);
+	background-position: 0px 48px;	
+}
+.h1-3:hover {
+	background-image: url(../assets/footer.png);
+	background-position: -92px 48px;
+}
+.h1-4:hover {
+	background-image: url(../assets/footer.png);
+	background-position: -186px 48px;
+}
+.h1-5:hover {
+	background-image: url(../assets/footer.png);
+	background-position: -272px 48px;
+}
+.h2-2:hover {
+	background-image: url(../assets/footer.png);
+	background-position: -368px 48px;
+}
+.h2-3:hover{
+	background-image: url(../assets/footer.png);
+	background-position: -458px 48px;
+}
+.h2-4:hover {
+	background-image: url(../assets/footer.png);
+	background-position: -558px 48px;
 }
 .footer-h2-2 {
 	width: 150px;
@@ -207,6 +235,9 @@ h3 {
 	display: inline-block;
 }
 li:hover {
+	color: forestgreen;
+}
+span:hover {
 	color: forestgreen;
 }
 </style>

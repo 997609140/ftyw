@@ -4,27 +4,40 @@
 		<h2>歌单推荐</h2>
 		<div id="SLists">
 			<div class="sl">
-				<img src="../../static/sl01.jpg" class="slimg" />
+				<div class="sl-img">
+				<div class="sl-playl" >
+				<div class="sl-play"></div>
+				</div>
+				<img src="../assets/sl01.jpg" class="slimg" />
+				</div>
 				<a href="/Play">每日新歌：刘惜君完美演绎</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl02.jpg" class="slimg" />
+				<div class="sl-img">					
+				<img src="../assets/sl02.jpg" class="slimg" />
+				</div>
 				<a href="/Play">清新小调：清泉般声音沁入心</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl03.jpg" class="slimg" />
+				<div class="sl-img">
+				<img src="../assets/sl03.jpg" class="slimg" />
+				</div>
 				<a href="/Play">我本孤独成性 却愿为你深情</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl04.jpg" class="slimg" />
+				<div class="sl-img">
+				<img src="../assets/sl04.jpg" class="slimg" />
+				</div>
 				<a href="/Play">当古风歌名拆分成两首曲子</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
-				<img src="../../static/sl04.jpg" class="slimg" />
+				<div class="sl-img">
+				<img src="../assets/sl04.jpg" class="slimg" />
+				</div>
 				<a href="/Play">当古风歌名拆分成两首曲子</a>
 				<p>播放量：2.6万</p>
 			</div>
@@ -32,7 +45,7 @@
 	</div>
 	<div class="inhead"><h2 class="inh2">排行榜</h2></div>
 	<div class="nav-cen">
-	<div id="topLi">
+	<div id="topLi" class="top0">
 		<h3 class="inh3">巅峰榜</h3>
 		<a  class="popTip" href="">流行指数</a>
 		<div class="ulist">
@@ -56,7 +69,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="topLi">
+	<div id="topLi" class="top1">
 		<h3 class="inh3">巅峰榜</h3>
 		<a  class="popTip" href="">流行指数</a>
 		<div class="ulist">
@@ -80,7 +93,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="topLi">
+	<div id="topLi" class="top2">
 		<h3 class="inh3">巅峰榜</h3>
 		<a  class="popTip" href="">流行指数</a>
 		<div class="ulist">
@@ -104,7 +117,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="topLi">
+	<div id="topLi" class="top3">
 		<h3 class="inh3">巅峰榜</h3>
 		<a  class="popTip" href="">流行指数</a>
 		<div class="ulist">
@@ -128,7 +141,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="topLi">
+	<div id="topLi" class="top4">
 		<h3 class="inh3">巅峰榜</h3>
 		<a  class="popTip" href="">流行指数</a>
 		<div class="ulist">
@@ -162,6 +175,11 @@ export default {
     return {
     	
     }
+  },
+  methods:{
+  	hover:function(){
+  		
+  	}
   }
 }
 </script>
@@ -187,11 +205,47 @@ export default {
 		width: 224px;
 		height: 285px;
 		display: inline-block;
+		overflow: hidden;
 	}
-	
+	.sl-playl {
+		width: 224px;
+		height: 224px;
+		position: absolute;
+		background-color: rgba(0,0,0,0.2);
+		visibility: hidden;
+		display: none;
+	}
+	.sl-play {
+		width: 49px;
+		height: 49px;
+		border-radius: 50%;
+		background-color: white;
+		position: absolute;	
+		top: 87px;
+		left: 87px;	
+		background-image: url(../assets/play.png);
+		background-size: 40px 40px;
+		background-repeat: no-repeat;
+		background-position: 9px 4px;
+		z-index: 20;
+		
+	}
+	.sl-img {
+		width: 224px;
+		height: 224px;
+		overflow: hidden;
+		position: relative;
+	}
 	.sl .slimg {
 		width: 224px;
 		height: 224px;
+		cursor: pointer;
+		transition: all 0.6s;
+	}
+	.slimg:hover {
+		width: 234px;
+		height: 224px;
+		transform: scale(1.4);
 	}
 	
 	a {
@@ -223,14 +277,34 @@ export default {
 	}
 	#topLi {
 		width: 224px;
-		height: 567px;
+		height: 500px;
 		display: inline-block;
 		margin: auto;
 		text-align: center;
-		background: url('../../static/bgImg.jpg') left top no-repeat;
 		position: relative;
 		overflow: hidden;
+		margin-bottom: 50px;
 	}
+	.top0 {
+		background-image: url('../assets/bgImg.jpg');
+	}
+	.top1 {
+		background-image: url('../assets/bgImg.jpg');
+		background-position: 224px 0px;
+	}
+	.top2 {
+		background-image: url('../assets/bgImg.jpg');
+		background-position: 448px 0px;
+	}
+	.top3 {
+		background-image: url('../assets/bgImg.jpg');
+		background-position: -224px 0px;
+	}
+	.top4 {
+		background-image: url('../assets/bgImg.jpg');
+		background-position: -448px 0px;
+	}
+
 	.inh3 {
 		width: 66px;
 		height: 22px;
