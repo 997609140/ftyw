@@ -122,7 +122,11 @@
 		cursor: pointer;
 	}
 	.search-icon {
+<<<<<<< HEAD
 		background-image: url(../assets/QQ图片20181031150358.png)g);
+=======
+		background-image: url(../assets/QQ图片20181031150358.png);
+>>>>>>> 001d0624d1e44fd030889892a48839de91436112
 		background-position: 0 -40px;
 		width: 16px;
 		height: 16px;

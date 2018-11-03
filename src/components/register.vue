@@ -44,7 +44,6 @@
 		</div>
 	</div>
 </template>
-
 <script>
 import axios from 'axios'
 export default {
@@ -119,6 +118,9 @@ export default {
 						This.mydata = response.data;
 						if(This.mydata.r == 'user_existed'){
 							This.proU = "用户名已存在";
+						}
+						if(This.mydata.r == 'ok'){
+							
 						}
 					}).catch(response => {
 						console.log("发送Ajax请求失败", response);

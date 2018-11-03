@@ -4,40 +4,60 @@
 		<h2>歌单推荐</h2>
 		<div id="SLists">
 			<div class="sl">
+<<<<<<< HEAD
 				<div class="sl-img">
 				<div class="sl-playl" >
 				<div class="sl-play"></div>
 				</div>
 				<img src="../assets/sl01.jpg" class="slimg" />
 				</div>
+=======
+				<img src="../assets/sl01.jpg" class="slimg" />
+>>>>>>> 001d0624d1e44fd030889892a48839de91436112
 				<a href="/Play">每日新歌：刘惜君完美演绎</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
+<<<<<<< HEAD
 				<div class="sl-img">					
 				<img src="../assets/sl02.jpg" class="slimg" />
 				</div>
+=======
+				<img src="../assets/sl02.jpg" class="slimg" />
+>>>>>>> 001d0624d1e44fd030889892a48839de91436112
 				<a href="/Play">清新小调：清泉般声音沁入心</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
+<<<<<<< HEAD
 				<div class="sl-img">
 				<img src="../assets/sl03.jpg" class="slimg" />
 				</div>
+=======
+				<img src="../assets/sl03.jpg" class="slimg" />
+>>>>>>> 001d0624d1e44fd030889892a48839de91436112
 				<a href="/Play">我本孤独成性 却愿为你深情</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
+<<<<<<< HEAD
 				<div class="sl-img">
 				<img src="../assets/sl04.jpg" class="slimg" />
 				</div>
+=======
+				<img src="../assets/sl04.jpg" class="slimg" />
+>>>>>>> 001d0624d1e44fd030889892a48839de91436112
 				<a href="/Play">当古风歌名拆分成两首曲子</a>
 				<p>播放量：2.6万</p>
 			</div>
 			<div class="sl">
+<<<<<<< HEAD
 				<div class="sl-img">
 				<img src="../assets/sl04.jpg" class="slimg" />
 				</div>
+=======
+				<img src="../assets/sl04.jpg" class="slimg" />
+>>>>>>> 001d0624d1e44fd030889892a48839de91436112
 				<a href="/Play">当古风歌名拆分成两首曲子</a>
 				<p>播放量：2.6万</p>
 			</div>
@@ -281,6 +301,10 @@ export default {
 		display: inline-block;
 		margin: auto;
 		text-align: center;
+<<<<<<< HEAD
+=======
+		background: url('../assets/bgImg.jpg') left top no-repeat;
+>>>>>>> 001d0624d1e44fd030889892a48839de91436112
 		position: relative;
 		overflow: hidden;
 		margin-bottom: 50px;
